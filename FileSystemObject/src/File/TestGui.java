@@ -30,7 +30,7 @@ public class TestGui {
 		System.out.println(folder.getSize());
 		
 		GUI test = new GUI(folder);
-		test.setBounds(20,20,300,300);
+		test.setBounds(30, 30, 200, 200);
 		test.setVisible(true);
 		frame.add(test);
 	}
